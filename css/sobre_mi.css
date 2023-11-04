@@ -1,0 +1,301 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+@font-face {
+  font-family: 'Cairo Play';
+  src: url('Cairo_Play/static/CairoPlay-SemiBold.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Cairo Play', sans-serif;
+  background-color: white;
+}
+.barra{
+  background-color:#033af0;
+ color: white;
+ height:50px;
+ position:fixed;
+ width: 200%;
+ z-index: 1;
+ padding: 5px;
+ float: left;
+ transition: bottom 0.5s ease; 
+}
+
+.barra a{
+text-decoration: none;
+color:white;
+padding:15px;
+top: 100px;
+
+ } 
+.menu{
+    background:linear-gradient(rgba(135, 172, 241, 0.5), rgba(20, 34, 36, 0.5)), url(img/Post\ facebook\ día\ de\ la\ hamburguesa\ playero.jpg);
+    background-attachment: fixed;
+    background-origin: padding-box;
+    background-position: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: -45px;
+}
+
+
+.menu h1 {
+font-size: 30px;
+margin-left: 200px;
+padding-top: 200px;
+text-align: left;
+  }
+  
+  .menu h2 {
+font-size: 80px;
+margin-left: 200px;
+padding-top: 10px;
+text-align: left;
+  }
+  
+.imagen img {
+float: right;
+margin-right: 200px;
+margin-top: 84px;
+width: 550px;
+height: 550px;
+  }
+
+  .holis {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.holis p {
+    font-size: 18px;
+    color: black;
+}
+  #proyectos {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #proyectos h2{
+  margin-left: 20px; 
+  position: relative;
+  padding: 15px;
+  }
+  
+  
+.division {
+    display: inline-block;
+    width: 30%; 
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+.division:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+.division img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  
+.titulo-de-proyecto {
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  .telegram-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(57, 140, 248);
+    color: white;
+    padding: 18px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .telegram-button i {
+    font-size: 30px;
+    color: white;
+  }
+  
+  
+   footer {
+    background-color:#033af0;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-logo {
+    margin-right: 20px;
+  }
+  
+  .footer-logo img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .quick-links {
+    margin-right: 20px;
+  }
+  
+  .quick-links h1 {
+    font-size: 20px;
+    color: pink;
+  }
+  
+  .quick-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    margin-right: 20px;
+  }
+  
+  .contact-info h1 {
+    font-size: 20px;
+    color: pink;
+  }
+  
+  .contact-info a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter {
+    margin-right: 20px;
+  }
+  
+  .newsletter h1 {
+    font-size: 20px;
+    color: pink;
+  }
+  
+  .newsletter p {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .newsletter button {
+    border: 2px solid white;
+    background-color: pink;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    margin: 0 auto;
+  }
+  
+  .newsletter button:hover{
+    background-color: white;
+    color: pink;
+    border-color: pink;
+  }
+  
+  .pie{
+    background-color:#033af0;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #copyright {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #copyright li {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+  }
+  .column {
+  width: 100%;
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+  @media screen and (max-width: 720px) {
+    .menu h1{
+      margin: 0;
+     font-size: 30px;
+     text-align: center;
+     margin-right: 4%;
+     position: relative; 
+     top: -100px;
+     }
+   
+     .menu h2 {
+       margin: 0;
+       font-size: 55px;
+       margin-left: 35px;
+       position: relative; 
+       top: -100px; 
+    }
+  
+    .telegram-button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: rgb(57, 140, 248);
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+    
+    .telegram-button i {
+      font-size: 30px;
+      color: white;
+    }
+    
+    .proyectos,
+    .division {
+      flex-direction: column;
+      width: 16.875rem;
+      height: 22.25rem;
+      margin-right: 10%;
+      float: left;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .proyectos {
+      width: 30.875rem;
+   }
+  }
+  
+
